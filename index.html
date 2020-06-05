@@ -15,7 +15,7 @@
       <button v-on:click="create">Add to list</button>
       
       <span v-if="!todoList.length">List is empty</span>
-      <ul>
+      <ul style="text-align: left;">
         <li v-for="(e,i) in todoList">
           {{ e }}   <button style="float: right;" v-on:click="remove(i)">X</button>
         </li>
