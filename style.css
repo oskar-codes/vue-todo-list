@@ -25,14 +25,17 @@ body {
 #app {
   text-align: center;
   width: 50vw;
+  height: 50vh;
   margin: 80px auto;
   background-color: white;
   border-radius: 20px;
   padding: 50px;
+  overflow-y: scroll;
 }
 
 #header {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   margin-top: 100px;
+  text-align: center;
 }
