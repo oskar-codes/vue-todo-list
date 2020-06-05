@@ -14,7 +14,7 @@
       <input type="text" placeholder="Enter your list item">
       <button v-on:click="create">Add to list</button>
       
-      <span v-if="!todoList.length">List is empty</span>
+      <p v-if="!todoList.length">List is empty</p>
       <ul style="text-align: left;">
         <li v-for="(e,i) in todoList">
           <button style="float: right;" v-on:click="remove(i)">X</button> {{ e }}
