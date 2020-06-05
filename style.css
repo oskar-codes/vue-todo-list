@@ -43,3 +43,9 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+textarea {
+  width: 450px;
+  height: 90px;
+  resize: none;
+}
