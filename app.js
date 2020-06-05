@@ -9,7 +9,7 @@ let app = new Vue({
   },
   methods: {
     create: function() {
-      let text = document.querySelector("input").value;
+      let text = document.querySelector("textarea").value;
       if (text.trim()) {
         app.todoList.push(text);
       }
