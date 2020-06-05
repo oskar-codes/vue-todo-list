@@ -12,5 +12,13 @@
 
 body {
   margin: 0;
-  font-family: main
+  color: white;
+}
+
+* {
+  font-family: main;
+}
+
+#app {
+  text-align: center;
 }
