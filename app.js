@@ -2,9 +2,9 @@ let app = new Vue({
   el: '#app',
   data: {
     todoList: [
-      "El 1",
-      "El 2",
-      "El 3"
+      "Example 1",
+      "Example 2",
+      "Example 3"
     ]
   },
   methods: {
