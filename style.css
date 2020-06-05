@@ -40,6 +40,6 @@ body {
   text-align: center;
 }
 
-::webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
