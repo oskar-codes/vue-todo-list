@@ -11,7 +11,7 @@
     <h1 id="header">Todo List</h1>
     <div id="background"></div>
     <div id="app">
-      <input type="text" placeholder="Enter your list item">
+      <textarea type="text" placeholder="Enter your list item"></textarea><br>
       <button v-on:click="create">Add to list</button>
       
       <p v-if="!todoList.length">List is empty</p>
