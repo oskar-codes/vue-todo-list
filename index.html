@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   </head>
   <body>
+    <div style="position: absolute; width: 100vw; height: 100vh;" id="background"></div>
     <div id="app">
       <span v-if="!todoList.length">List is empty</span>
       <ul>
@@ -22,5 +23,6 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|horizontal|,|sensitivity|:0.22,|colorStart|:[50,22,103,1],|colorEnd|:[20,86,205,1]},|particle|:{|life|:5,|power|:0.5,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_01.png|,|number|:178,|colorStart|:[116,129,92,0.13],|colorEnd|:[198,188,107,0.52],|sizeStart|:0.82,|sizeEnd|:1.64,|direction1|:{|x|:0,|y|:100,|z|:0},|direction2|:{|x|:0,|y|:-100,|z|:0}},|waterMark|:false}" data-container="background"></script>
   </body>
 </html>
