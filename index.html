@@ -8,18 +8,18 @@
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   </head>
   <body>
+    <h1 id="header">Todo List</h1>
     <div id="background"></div>
     <div id="app">
+      <input type="text" placeholder="Enter your list item">
+      <button v-on:click="create">Add to list</button>
+      
       <span v-if="!todoList.length">List is empty</span>
       <ul>
         <li v-for="(e,i) in todoList">
           {{ e }}   <button v-on:click="remove(i)">X</button>
         </li>
       </ul>
-
-
-      <input type="text" placeholder="Enter your list item">
-      <button v-on:click="create">Add to list</button>
     </div>
 
     <script src="app.js"></script>
