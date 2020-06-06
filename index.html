@@ -20,6 +20,13 @@
           <button style="float: right;" v-on:click="remove(i)">X</button> {{ e }}
         </li>
       </ul>
+      
+      <div v-if="Math.random() > 0.5">
+        Now you see me
+      </div>
+      <div v-else>
+        Now you don't
+      </div>
     </div>
 
     <script src="app.js"></script>
