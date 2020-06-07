@@ -9,10 +9,11 @@ let app = new Vue({
   },
   methods: {
     create: function() {
-      let text = document.querySelector("textarea").value;
+      let input = document.querySelector("textarea");
       if (text.trim()) {
-        app.todoList.push(text);
+        app.todoList.push(text.value);
       }
+      input.value = "";
     },
     remove: function(i) {
       app.todoList.splice(i,1);
